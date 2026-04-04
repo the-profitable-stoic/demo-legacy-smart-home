@@ -1,0 +1,532 @@
+{
+  "business": {
+    "name": "Legacy Smart Home",
+    "phone": "555-sma-r94",
+    "category": "smart-home",
+    "city": "Seattle",
+    "state": "WA"
+  },
+  "design": {
+    "preset": {
+      "id": "smart-home-heritage-craft",
+      "categoryGroup": "smart-home",
+      "name": "Heritage Craft",
+      "recipeFile": "smart-home/heritage-craft.astro",
+      "colors": {
+        "primary": "#4A5A7C",
+        "primaryDark": "#2c364a",
+        "primaryLight": "#c0c5d1",
+        "secondary": "#3f4d69",
+        "accent": "#4A5A7C",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#3f4d69",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "smart-home/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Smart Home Solutions for Seattle Living",
+      "heroSubline": "Specializing in climate-responsive smart home technology. Designed for Pacific Northwest homes from historic Craftsman to modern builds.",
+      "aboutTitle": "Built for Seattle's Unique Needs",
+      "aboutText": [
+        "Founded in 2012, Legacy Smart Home began when our founder noticed how Seattle's persistent dampness caused recurring issues in home automation systems. We've since perfected moisture-resistant installations that withstand our region's challenges.",
+        "Every system we design considers local factors: moss growth on sensors, wood rot risks in older homes, and earthquake preparedness. We use marine-grade components where others use standard materials.",
+        "We sponsor smart home workshops at Seattle Central Library and maintain a pro bono program for historic homes in Capitol Hill and Queen Anne."
+      ],
+      "valueProps": [
+        {
+          "title": "Rain-Ready Tech",
+          "description": "All components rated for Seattle's 152 rainy days annually with specialized moisture barriers"
+        },
+        {
+          "title": "Heritage Home Experts",
+          "description": "Preservation-friendly installations for 1920s Craftsman homes with minimal structural impact"
+        },
+        {
+          "title": "Earthquake Prepared",
+          "description": "All critical systems feature seismic bracing meeting Washington state retrofit standards"
+        },
+        {
+          "title": "Lake Washington Proof",
+          "description": "Specialized corrosion protection for waterfront properties facing accelerated wear"
+        }
+      ],
+      "ctaHeadline": "Schedule Your Climate Consultation",
+      "ctaSubline": "Our team will assess your home's unique needs from Ballard to Bellevue."
+    },
+    "services": [
+      {
+        "slug": "smart-moisture-monitoring",
+        "name": "Smart Moisture Monitoring",
+        "shortDescription": "Prevent mold and wood rot with real-time moisture tracking tailored to Seattle homes.",
+        "description": "Our moisture monitoring systems go beyond basic sensors with predictive algorithms trained on Pacific Northwest weather patterns. We install discreet, high-sensitivity probes in problem areas: under porches where moss accumulates, along basement foundations prone to seepage, and in crawl spaces vulnerable to dampness.\n\nFor historic homes in neighborhoods like Queen Anne, we use minimally invasive installation techniques that preserve original woodwork. Modern builds in Bellevue receive integrated solutions that sync with existing smart home ecosystems. All systems include automatic alerts when humidity exceeds safe thresholds and can trigger dehumidifiers or ventilation systems.\n\nThe patented probe housings resist the mineral deposits common in Seattle's water supply, a frequent failure point in standard systems. We also offer optional integration with local weather data to anticipate incoming rainfall.",
+        "process": [
+          "Step 1: 48-hour baseline assessment of home's moisture profile",
+          "Step 2: Custom probe placement plan prioritizing high-risk zones",
+          "Step 3: Installation using preservation-approved methods for older homes",
+          "Step 4: Calibration to your neighborhood's microclimate"
+        ],
+        "benefits": [
+          "Prevents $15,000+ in average wood rot repairs",
+          "Reduces seasonal allergy triggers by monitoring mold spore levels",
+          "Preserves antique wood in historic districts",
+          "Qualifies for Washington State energy efficiency rebates"
+        ],
+        "faq": [
+          {
+            "question": "How does this differ from store-bought moisture sensors?",
+            "answer": "Our professional-grade system monitors structural moisture (not just air humidity) with probes that last 5x longer in damp conditions. The predictive alerts are calibrated specifically for Seattle's unique combination of maritime air and frequent drizzle."
+          },
+          {
+            "question": "Will installation damage my historic home's finishes?",
+            "answer": "We use endoscopic installation methods in sensitive areas and match all conduit to existing trim profiles. In the International District's pre-war buildings, we've successfully installed systems without a single visible wire."
+          }
+        ]
+      },
+      {
+        "slug": "earthquake-responsive-systems",
+        "name": "Earthquake-Responsive Systems",
+        "shortDescription": "Automatic gas/water shutoff and emergency protocols designed for Seattle's seismic risks.",
+        "description": "When the next big quake hits, your smart home should be your first line of defense. Our seismic response systems feature industrial-grade accelerometers (the same technology used in Sound Transit's early warning system) that detect P-waves before shaking begins.\n\nWithin milliseconds, the system will: shut off gas lines at the meter to prevent fires (a major risk in Seattle's older neighborhoods with vintage plumbing), activate emergency lighting along egress paths, and unlock smart deadbolts for safe evacuation. The control panel automatically texts your designated contacts with your home's status and location.\n\nWe conduct annual seismic readiness checks that inspect bolt tightness on all components—a critical service as the constant dampness can loosen fittings over time. For waterfront properties in Kirkland, we add extra corrosion protection to critical connections.\n\nAll installations meet or exceed the City of Seattle's Earthquake Early Warning Program requirements for residential structures.",
+        "process": [
+          "Step 1: Seismic risk assessment of home's layout and utilities",
+          "Step 2: Custom emergency protocol programming",
+          "Step 3: Professional installation of seismic shutoff valves",
+          "Step 4: Annual readiness verification"
+        ],
+        "benefits": [
+          "Meets Seattle's voluntary retrofit standards",
+          "Prevents post-quake gas leaks (responsible for 30% of quake damage)",
+          "Maintains functionality after 7.0+ tremors",
+          "Integrates with King County emergency alerts"
+        ],
+        "faq": [
+          {
+            "question": "How often does the system need maintenance?",
+            "answer": "We recommend annual checks before winter storm season. The salty air off Puget Sound can degrade connections faster than inland systems—our premium stainless steel components withstand this better than standard kits."
+          },
+          {
+            "question": "Will it work if power goes out?",
+            "answer": "All critical components have 72-hour battery backups with automatic recharge when power resumes. For homes in outage-prone areas near Discovery Park, we can add optional solar charging."
+          }
+        ]
+      },
+      {
+        "slug": "historic-home-automation",
+        "name": "Historic Home Automation",
+        "shortDescription": "Seattle's leading specialist in automating century-old Craftsman and Victorian homes.",
+        "description": "Preserving the character of your Capitol Hill Tudor or Ballard bungalow shouldn't mean living without modern conveniences. Our heritage home solutions hide contemporary technology in plain sight: router cabinets disguised as vintage radio consoles, motion sensors concealed in crown molding, and touchscreen controls mounted in period-appropriate frames.\n\nWe've developed techniques specifically for Seattle's historic housing stock: running wires through original knob-and-tube channels (without compromising safety), adapting smart switches for old push-button fixtures, and creating custom wood enclosures that match your home's millwork. For designated landmarks in the Harvard-Belmont Historic District, we work closely with preservation boards to ensure compliance.\n\nThe systems are programmed to account for quirks of older construction—like adjusting HVAC airflow for homes without modern ductwork or creating lighting scenes that complement original stained glass windows. We even replicate the warm glow of Edison bulbs in smart fixtures to maintain historic ambiance.\n\nEvery project begins with a heritage assessment documenting original features to protect during installation.",
+        "process": [
+          "Step 1: Heritage features documentation",
+          "Step 2: Non-invasive wiring plan approval",
+          "Step 3: Custom fabrication of period-appropriate interfaces",
+          "Step 4: Ambience-matching automation programming"
+        ],
+        "benefits": [
+          "Approved by Seattle Landmarks Preservation Board",
+          "Maintains eligibility for historic tax credits",
+          "Specialized craftsmen familiar with local architecture",
+          "Reversible installations for future preservation"
+        ],
+        "faq": [
+          {
+            "question": "Can you automate my 1910 home's original fixtures?",
+            "answer": "Yes—we've successfully retrofitted everything from servant call buttons in First Hill mansions to dairy door mechanisms in Wallingford farmhouses. Our collection of vintage-compatible smart relays is unmatched in the region."
+          },
+          {
+            "question": "How do you handle plaster walls?",
+            "answer": "Using endoscopic tools borrowed from museum conservation work, we thread wiring through walls with minimal disruption. For ornate ceilings in Arlington Heights homes, we often follow original painter's wire channels."
+          }
+        ]
+      },
+      {
+        "slug": "moss-resistant-outdoor-tech",
+        "name": "Moss-Resistant Outdoor Tech",
+        "shortDescription": "Specialized outdoor smart systems that withstand Seattle's relentless moss growth.",
+        "description": "Standard outdoor tech fails within two Seattle winters—our proprietary MossShield coatings keep security cameras, motion sensors, and smart irrigation working year-round. The nanotechnology surface treatment prevents moss adhesion while maintaining 4K image clarity, a breakthrough developed specifically for Puget Sound conditions.\n\nFor properties near Green Lake or the Washington Park Arboretum where moss grows exceptionally fast, we offer monthly automated cleaning cycles using precise air bursts (no harsh chemicals that could harm surrounding vegetation). The system intelligently adjusts cleaning frequency based on real-time growth sensors and shaded areas of your property.\n\nAll exposed components feature marine-grade stainless steel fasteners and UV-stabilized housings to combat both moisture and our brief but intense summer sun. We also install subtle heating elements in critical junctions to prevent winter freezing—a common cause of irrigation system failures during Seattle's cold snaps.\n\nOur installations include a 5-year moss-related warranty, the only one of its kind in the region.",
+        "process": [
+          "Step 1: Moss growth pattern analysis",
+          "Step 2: Application of proprietary MossShield treatment",
+          "Step 3: Installation with anti-fungal wire conduits",
+          "Step 4: Programming of automated maintenance cycles"
+        ],
+        "benefits": [
+          "5-year warranty against moss-related failures",
+          "Eliminates 90% of manual cleaning needs",
+          "Preserves views from deck cameras",
+          "Self-regulating heating prevents winter freeze damage"
+        ],
+        "faq": [
+          {
+            "question": "How does MossShield affect camera image quality?",
+            "answer": "The treatment creates a microscopic surface that causes water to bead and roll off before moss can take hold—with no visible distortion. Our Madison Park clients consistently report clearer wet-weather footage than untreated systems."
+          },
+          {
+            "question": "Will this harm the moss in my intentional garden features?",
+            "answer": "The system can be programmed to exclude designated zones. Many clients in the Japanese Garden neighborhood use this to protect deliberate moss gardens while keeping functional areas clear."
+          }
+        ]
+      },
+      {
+        "slug": "waterfront-smart-lighting",
+        "name": "Waterfront Smart Lighting",
+        "shortDescription": "Corrosion-resistant lighting systems designed for Lake Washington and Puget Sound properties.",
+        "description": "The same salty air that gives the Puget Sound its character can destroy standard outdoor lighting in 18 months. Our marine-spec smart lighting uses materials borrowed from Seattle's shipbuilding industry: anodized aluminum housings, sacrificial zinc anodes, and fully potted electronics that withstand relentless moisture.\n\nFor homes along Kirkland's waterfront or Mercer Island's shores, we design lighting schemes that complement the reflective qualities of water while minimizing light pollution. The systems automatically adjust brightness based on tidal patterns (to avoid glaring boaters) and can create stunning ripple effects across your property's water features.\n\nWe also install specialized security lighting that deters nighttime kayakers from approaching docks without disturbing marine life—a feature appreciated by environmental-conscious homeowners in the Leschi and Laurelhurst communities. All fixtures are rated for occasional wave splash and include automatic diagnostic systems that alert you to any salt accumulation before it causes damage.\n\nThe lighting controllers live in NEMA 4X-rated enclosures (the same standard used for Seattle's ferry terminals) with redundant moisture barriers.",
+        "process": [
+          "Step 1: Salt air exposure assessment",
+          "Step 2: Marine-grade fixture selection",
+          "Step 3: Tidal/boating pattern programming",
+          "Step 4: Automated maintenance alert setup"
+        ],
+        "benefits": [
+          "3x longer lifespan than standard outdoor lighting",
+          "Reduces maintenance boat visits to floating homes",
+          "Compliant with Puget Sound light pollution standards",
+          "Enhances nighttime water views without glare"
+        ],
+        "faq": [
+          {
+            "question": "How do you prevent corrosion in electrical connections?",
+            "answer": "We use dielectric grease and hermetically sealed connectors—the same methods used by Washington State Ferries. For exposed junctions on docks, we add removable stainless steel covers for easy inspection."
+          },
+          {
+            "question": "Can the system coordinate with passing boats?",
+            "answer": "Yes—many of our Portage Bay clients enjoy automatic dimming when the Fremont Bridge opens, while Lake Union houseboats can sync with seaplane schedules."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Mikael T.",
+        "rating": 5,
+        "service": "Historic Home Automation",
+        "text": "Made our 1924 Tudor in Volunteer Park feel timeless yet modern. They replicated the original push-button light switches with smart versions that look identical but control whole-room scenes. The hidden wiring preserved our plaster walls perfectly.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Priya N.",
+        "rating": 5,
+        "service": "Moss-Resistant Outdoor Tech",
+        "text": "After replacing 3 Ring cameras in 18 months, your MossShield system has lasted 2 years near Ravenna Park with zero cleaning needed. The automatic air bursts keep lenses clear without damaging our delicate ferns.",
+        "date": "2025-04-22"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Earthquake-Responsive Systems",
+        "text": "When that 4.7 hit last February, the gas shutoff activated before we even felt shaking. Peace of mind knowing our Madrona home won't add fire risk to the next big quake. Yearly maintenance found loose brackets we'd never have noticed.",
+        "date": "2025-01-30"
+      },
+      {
+        "name": "Sophie K.",
+        "rating": 5,
+        "service": "Waterfront Smart Lighting",
+        "text": "Our Leschi dock lights now automatically dim when the ferry passes—no more angry boaters! The marine-grade fixtures show zero corrosion after 3 Puget Sound winters. Worth every penny.",
+        "date": "2025-05-18"
+      },
+      {
+        "name": "Daniel H.",
+        "rating": 5,
+        "service": "Smart Moisture Monitoring",
+        "text": "Caught a slow pipe leak under our Queen Anne porch before it ruined the foundation. The system paid for itself in one winter. Love how it integrates with our weather station to predict dampness risk.",
+        "date": "2025-02-10"
+      },
+      {
+        "name": "Aisha B.",
+        "rating": 5,
+        "service": "Historic Home Automation",
+        "text": "They concealed all modern tech in our 1908 Arts & Crafts home so well the landmark committee approved everything. The disguised router in a vintage radio cabinet gets compliments from every guest.",
+        "date": "2025-06-05"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Seattle Smart Home Automation | Legacy Smart Home",
+        "description": "Climate-responsive smart home technology designed for Seattle's damp weather, historic homes, and waterfront properties. Serving Bellevue to Tacoma since 2012."
+      },
+      "about": {
+        "title": "About Our Seattle Smart Home Expertise",
+        "description": "Learn how Legacy Smart Home solves unique Pacific Northwest challenges with moisture-proof, earthquake-ready, and historic home-friendly automation."
+      },
+      "services": {
+        "title": "Smart Home Services for Seattle Homes",
+        "description": "From moss-resistant outdoor tech to heritage home automation, we specialize in solutions built for Washington's climate and architecture."
+      },
+      "contact": {
+        "title": "Contact Seattle's Smart Home Experts",
+        "description": "Schedule your smart home consultation for Bellevue, Redmond, Kirkland, Tacoma, and Bothell homes. Call 555-SMA-R94 today."
+      },
+      "reviews": {
+        "title": "Seattle Smart Home Customer Reviews",
+        "description": "See how Legacy Smart Home transformed properties across King County with climate-adapted automation technology."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Bellevue",
+        "slug": "bellevue-wa",
+        "state": "WA",
+        "content": "Legacy Smart Home proudly serves Bellevue, WA, a thriving city known for its upscale homes built from the 1980s to the 2000s. Our smart-home solutions are perfect for modernizing these residences with advanced security, lighting, and climate control systems. Given Bellevue's mild, wet winters with persistent rain, we recommend smart weatherproofing and automated gutter monitoring to protect your property. Whether you're in downtown Bellevue or the surrounding hills, our team ensures seamless integration of cutting-edge technology tailored to your home's unique needs.",
+        "localContext": "Bellevue is home to affluent neighborhoods and a strong tech-driven economy, making it ideal for smart-home upgrades.",
+        "nearbyAreas": [
+          "Redmond",
+          "Kirkland",
+          "Issaquah"
+        ]
+      },
+      {
+        "city": "Redmond",
+        "slug": "redmond-wa",
+        "state": "WA",
+        "content": "Legacy Smart Home specializes in serving Redmond, WA, a city closely tied to the Microsoft campus and its surrounding residential areas. Many homes here benefit from smart-home automation to enhance convenience and energy efficiency. With Redmond's mild, wet winters featuring persistent rain, our solutions include leak detection systems and smart thermostats to maintain comfort year-round. From tech-savvy professionals to families, we customize installations to fit Redmond's dynamic lifestyle.",
+        "localContext": "Redmond is a hub for tech professionals, with a high demand for smart-home innovations.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Kirkland",
+          "Sammamish"
+        ]
+      },
+      {
+        "city": "Kirkland",
+        "slug": "kirkland-wa",
+        "state": "WA",
+        "content": "Kirkland, WA, with its stunning waterfront homes along Lake Washington, is a prime location for Legacy Smart Home's services. We specialize in integrating smart-home technology to enhance lakefront living, from automated blinds to waterfront security systems. Kirkland's mild, wet winters with persistent rain make moisture-resistant smart devices a must. Whether you're in a modern condo or a historic lakeside estate, our team ensures your home is both intelligent and resilient.",
+        "localContext": "Kirkland's scenic waterfront properties and vibrant downtown make it a sought-after area for smart-home solutions.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Redmond",
+          "Bothell"
+        ]
+      },
+      {
+        "city": "Tacoma",
+        "slug": "tacoma-wa",
+        "state": "WA",
+        "content": "Legacy Smart Home brings cutting-edge automation to Tacoma, WA, particularly in the historic Stadium District with its charming Craftsman homes from the 1900s-1920s. Our smart-home upgrades preserve the character of these homes while adding modern conveniences like voice-controlled lighting and smart locks. Tacoma's mild, wet winters with persistent rain call for smart moisture sensors and energy-efficient heating solutions. We tailor our services to Tacoma's unique blend of history and innovation.",
+        "localContext": "Tacoma's historic architecture and growing tech scene create a perfect setting for smart-home integration.",
+        "nearbyAreas": [
+          "Federal Way",
+          "Puyallup",
+          "Gig Harbor"
+        ]
+      },
+      {
+        "city": "Bothell",
+        "slug": "bothell-wa",
+        "state": "WA",
+        "content": "Bothell, WA, with its 1980s-90s suburban developments, is an excellent market for Legacy Smart Home's services. We help homeowners modernize these properties with smart lighting, security, and energy management systems. Bothell's mild, wet winters with persistent rain make smart leak detection and climate control essential. Whether you're near downtown Bothell or in a quiet cul-de-sac, our solutions enhance comfort and convenience for your family.",
+        "localContext": "Bothell's family-friendly neighborhoods and suburban charm make it ideal for smart-home upgrades.",
+        "nearbyAreas": [
+          "Kirkland",
+          "Woodinville",
+          "Mill Creek"
+        ]
+      },
+      {
+        "city": "Issaquah",
+        "slug": "issaquah-wa",
+        "state": "WA",
+        "content": "Legacy Smart Home serves Issaquah, WA, a city nestled between the mountains and urban amenities. Many homes here benefit from smart technology to manage energy usage and enhance security. Issaquah's mild, wet winters with persistent rain make smart weather monitoring and automated drainage systems valuable additions. From alpine-style homes to modern townhouses, we deliver tailored smart-home solutions for Issaquah residents.",
+        "localContext": "Issaquah's blend of outdoor recreation and suburban living creates a strong demand for smart-home technology.",
+        "nearbyAreas": [
+          "Bellevue",
+          "Sammamish",
+          "Renton"
+        ]
+      },
+      {
+        "city": "Sammamish",
+        "slug": "sammamish-wa",
+        "state": "WA",
+        "content": "Sammamish, WA, with its spacious homes and scenic views, is a key service area for Legacy Smart Home. We specialize in whole-home automation, including security, lighting, and climate control for Sammamish's upscale residences. The city's mild, wet winters with persistent rain make smart moisture sensors and energy-efficient heating systems essential. Whether you're near Sammamish Plateau or Lake Sammamish, our team ensures your home is smart and secure.",
+        "localContext": "Sammamish's affluent neighborhoods and natural beauty make it a prime location for smart-home installations.",
+        "nearbyAreas": [
+          "Redmond",
+          "Issaquah",
+          "Bellevue"
+        ]
+      },
+      {
+        "city": "Woodinville",
+        "slug": "woodinville-wa",
+        "state": "WA",
+        "content": "Woodinville, WA, known for its wineries and rural charm, is a growing market for Legacy Smart Home. We provide smart-home solutions that blend seamlessly with Woodinville's mix of estates and vineyards. The area's mild, wet winters with persistent rain make smart irrigation and leak detection systems highly valuable. Whether you're in a countryside estate or a modern farmhouse, our technology enhances your lifestyle.",
+        "localContext": "Woodinville's wine country ambiance and spacious properties create unique opportunities for smart-home integration.",
+        "nearbyAreas": [
+          "Bothell",
+          "Redmond",
+          "Kirkland"
+        ]
+      },
+      {
+        "city": "Renton",
+        "slug": "renton-wa",
+        "state": "WA",
+        "content": "Legacy Smart Home serves Renton, WA, a diverse city with a mix of historic and modern homes. Our smart-home solutions cater to Renton's evolving neighborhoods, offering security, automation, and energy efficiency. Renton's mild, wet winters with persistent rain make smart weatherproofing and heating systems a priority. From Boeing employees to families, we customize installations to fit Renton's vibrant community.",
+        "localContext": "Renton's industrial heritage and growing residential appeal make it a strong market for smart-home technology.",
+        "nearbyAreas": [
+          "Kent",
+          "Tukwila",
+          "Bellevue"
+        ]
+      },
+      {
+        "city": "Kent",
+        "slug": "kent-wa",
+        "state": "WA",
+        "content": "Kent, WA, with its affordable housing and family-friendly neighborhoods, is a key service area for Legacy Smart Home. We help Kent residents enhance their homes with smart security, lighting, and climate control systems. The city's mild, wet winters with persistent rain make smart moisture management and energy-efficient solutions essential. Whether you're in a suburban ranch or a modern townhome, our team delivers reliable smart-home upgrades.",
+        "localContext": "Kent's diverse communities and proximity to major employers drive demand for smart-home solutions.",
+        "nearbyAreas": [
+          "Renton",
+          "Auburn",
+          "Federal Way"
+        ]
+      },
+      {
+        "city": "Federal Way",
+        "slug": "federal-way-wa",
+        "state": "WA",
+        "content": "Legacy Smart Home serves Federal Way, WA, a city with a mix of mid-century and contemporary homes. Our smart-home solutions are designed to improve convenience and security for Federal Way residents. The area's mild, wet winters with persistent rain make smart leak detection and climate control systems highly beneficial. Whether you're near the waterfront or in a quiet suburban neighborhood, we tailor our installations to your needs.",
+        "localContext": "Federal Way's strategic location between Seattle and Tacoma makes it a growing market for smart-home technology.",
+        "nearbyAreas": [
+          "Tacoma",
+          "Kent",
+          "Des Moines"
+        ]
+      },
+      {
+        "city": "Puyallup",
+        "slug": "puyallup-wa",
+        "state": "WA",
+        "content": "Legacy Smart Home extends its services to Puyallup, WA, a city known for its historic homes and family-friendly atmosphere. We specialize in smart-home upgrades that complement Puyallup's charming neighborhoods. The area's mild, wet winters with persistent rain make smart moisture sensors and energy-efficient heating systems valuable. Whether you're near the fairgrounds or in a quiet cul-de-sac, our solutions enhance your home's comfort and security.",
+        "localContext": "Puyallup's strong community spirit and historic appeal create a unique market for smart-home integration.",
+        "nearbyAreas": [
+          "Tacoma",
+          "Sumner",
+          "Bonney Lake"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "historic-home-automation": "/images/service-historic-home-automation.webp",
+      "smart-moisture-monitoring": "/images/service-smart-moisture-monitoring.webp",
+      "earthquake-responsive-systems": "/images/service-earthquake-responsive-systems.webp",
+      "moss-resistant-outdoor-tech": "/images/service-moss-resistant-outdoor-tech.webp",
+      "waterfront-smart-lighting": "/images/service-waterfront-smart-lighting.webp"
+    },
+    "servicesResponsive": {
+      "historic-home-automation": {
+        "src": "/images/service-historic-home-automation.webp",
+        "srcset": "/images/service-historic-home-automation-400w.webp 400w, /images/service-historic-home-automation-800w.webp 800w, /images/service-historic-home-automation-1200w.webp 1200w, /images/service-historic-home-automation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "smart-moisture-monitoring": {
+        "src": "/images/service-smart-moisture-monitoring.webp",
+        "srcset": "/images/service-smart-moisture-monitoring-400w.webp 400w, /images/service-smart-moisture-monitoring-800w.webp 800w, /images/service-smart-moisture-monitoring-1200w.webp 1200w, /images/service-smart-moisture-monitoring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "earthquake-responsive-systems": {
+        "src": "/images/service-earthquake-responsive-systems.webp",
+        "srcset": "/images/service-earthquake-responsive-systems-400w.webp 400w, /images/service-earthquake-responsive-systems-800w.webp 800w, /images/service-earthquake-responsive-systems-1200w.webp 1200w, /images/service-earthquake-responsive-systems.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "moss-resistant-outdoor-tech": {
+        "src": "/images/service-moss-resistant-outdoor-tech.webp",
+        "srcset": "/images/service-moss-resistant-outdoor-tech-400w.webp 400w, /images/service-moss-resistant-outdoor-tech-800w.webp 800w, /images/service-moss-resistant-outdoor-tech-1200w.webp 1200w, /images/service-moss-resistant-outdoor-tech.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "waterfront-smart-lighting": {
+        "src": "/images/service-waterfront-smart-lighting.webp",
+        "srcset": "/images/service-waterfront-smart-lighting-400w.webp 400w, /images/service-waterfront-smart-lighting-800w.webp 800w, /images/service-waterfront-smart-lighting-1200w.webp 1200w, /images/service-waterfront-smart-lighting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
